@@ -19,4 +19,3 @@ def run_project(first, second, target):
 			
 			break
 
-run_project(0, 1, 89)
