@@ -19,18 +19,18 @@ def run_test(one, two, three):
 	print (three.question + "\n" + "\n" + three.correctanswer + "\n" + three.answer2 + "\n" + three.answer3 + "\n" + three.answer4 + "\n")
 	user_answer_three = input("type answer here: ")
 
-	if user_answer == one.correctanswer:
+	if user_answer.lower() == one.correctanswer.lower():
 		score += 1
 
 	else:
 		pass
 
-	if user_answer_two == two.correctanswer:
+	if user_answer_two.lower() == two.correctanswer.lower():
 		score += 1
 	else:
 		pass
 
-	if user_answer_three == three.correctanswer:
+	if user_answer_three.lower() == three.correctanswer.lower():
 		score += 1
 	else:
 		pass
