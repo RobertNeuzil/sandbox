@@ -14,5 +14,5 @@ dimes = dimes * 0.10
 quarters = quarters * 0.25
 
 rawtotal = pennies + nickels + dimes + quarters
-
+rawtotal = round(rawtotal, 2)
 print ("You have " + "$" + str(rawtotal) + " dollars")
